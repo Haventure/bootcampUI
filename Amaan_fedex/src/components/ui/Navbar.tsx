@@ -4,9 +4,12 @@ export function Navbar() {
   return (
     <div className="fixed top-0 left-0 w-full bg-purple-900 p-3 flex items-center z-50">
       {/* Logo */}
-      <h1 className="text-3xl font-bold text-white ml-40">
-        <span>Fed</span>
-        <span className="text-orange-500">Ex.</span>
+     <h1 className="font-bold text-white ml-40">
+        <img 
+          src="https://www.fedex.com/content/dam/fedex-com/logos/logo.png" 
+          alt="FedEx Logo" 
+          className="w-24 h-auto" // Change size here (e.g. w-24, w-16)
+        />
       </h1>
 
       {/* Navigation Items */}
@@ -29,10 +32,10 @@ export function Navbar() {
       </ul>
 
       {/* Search Icon - aligned right */}
-      <div className="ml-auto pr-4">
+      <div className="pr-4 ml-80">
         <button
           type="button"
-          className="text-xl text-white hover:text-orange-500 transition"
+          className="text-3xl text-white hover:text-orange-500 transition"
           aria-label="Search"
         >
           <i className="fa-solid fa-magnifying-glass"></i>

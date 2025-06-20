@@ -90,7 +90,7 @@ export default function footer() {
                 LANGUAGE
               </h2>
               <div className="mt-8">
-               <Link href="/" legacyBehavior>
+               <Link href="/">
                 <a className="flex items-center space-x-2 mb-2">
                   <img
                     width="35"
